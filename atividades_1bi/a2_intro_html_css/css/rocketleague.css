@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at top, #0a1f3c, #050c1a);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    max-width: 750px;
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 132, 255, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 132, 255, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+
+h1 {
+    font-size: 42px;
+    color: #00a8ff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00a8ff;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #00a8ff;
+}
+
+
+.descricao {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(0, 168, 255, 0.1);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+ul li:hover {
+    background: rgba(0, 168, 255, 0.25);
+    transform: scale(1.05);
+}
+
+
+img {
+    width: 320px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 15px;
+    border: 3px solid #00a8ff;
+    transition: 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #00a8ff;
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #00a8ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.botao:hover {
+    background: #0077ff;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #00a8ff;
+}
